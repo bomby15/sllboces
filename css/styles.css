@@ -1,0 +1,156 @@
+/* CSS Document */
+/* CSS Rest */ 
+* {
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+}
+
+body {
+	background-color: #cccccc; 
+}
+
+header h1 {
+	margin-left: 25%;
+	color: black; 
+	font-weight: bold;
+	font-size: 7em;
+}
+
+header h2 {
+	margin-left: 25%; 
+	color: #ffffff; 
+	font-size: 3em; 
+}
+
+.hnav {
+	padding: 5px 0;
+	width: 100%;
+	background-color: #00568c; 
+	min-height: 50px; 
+}
+
+.hnav ul {
+	display: block; 
+	text-align: center;
+}
+
+.hnav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 10%; 
+	background-color: #008e66; 
+	margin-top: .8%;
+}
+
+.hnav a {
+	color: white;
+	text-decoration: none; 
+	font-size: 1.5em; 
+}
+
+.fnav {
+	padding: 5px 0;
+	width: 100%;
+	background-color: #00568c; 
+	min-height: 50px; 
+}
+
+.fnav ul {
+	display: block; 
+	text-align: center;
+}
+
+.fnav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 10%; 
+	background-color: #008e66;
+	margin-top: .8%;
+}
+
+.fnav a {
+	color: #ffffff;
+	text-decoration: none; 
+	font-size: 1.5em;
+}
+
+footer h4, footer h5, footer h6 {
+	text-align: center; 
+}
+
+
+h1 { 
+
+}
+
+main {
+	width: 100%; 
+	min-height: 500px; 
+}
+
+#container {
+	padding: 2% 0; 
+	margin: 0 auto; 
+	width: 80%; 
+	min-height: 500px; 
+	font-size: 1.8em; 
+	color: #008e66; 
+/* 		background-color: red;*/
+}
+
+#container img {
+	float: left; 
+	padding-right: 2%; 
+	margin: 0 auto;
+}
+
+h2 {
+	padding: 20px;
+	color: #cccccc;
+	font-size: 1.5em; 
+	font-weight: bold; 
+}
+
+blockquote {
+	color: #008e6699;
+}
+
+.imgSize {
+	width: 50%;
+}
+
+/* Tablet Viewport: Style rules for table */ 
+table {
+	border: 1px solid #000; 
+	border-collapse: collapse;
+	margin: 0 auto; 
+	width: 100%; 
+}
+	
+caption {
+	font-size: 1.5em; 
+	font-weight: bold; 
+	padding: 1%; 
+}
+	
+th, td {
+	border: 1px solid #000; 
+	padding: 2%; 
+}
+	
+th {
+	background-color: #000; 
+	color: #cccccc; 
+	font-size: 1.15em; 
+}
+	
+tr:nth-child(odd) {
+	background-color: #cccccc; 
+}
+	
+	/* Tablet viewport: style rule for form element */ 
+form {
+	width: 70%; 
+	margin: 0 auto; 
+}
